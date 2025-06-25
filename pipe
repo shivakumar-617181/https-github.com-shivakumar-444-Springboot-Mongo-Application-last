@@ -1,0 +1,23 @@
+pipeline {
+    agent any 
+        stages {
+            stage('git') {
+                steps {
+                    sh 'git --version'
+                }
+            }
+            stage('time') {
+                steps {
+                    sh 'date'
+                }
+            }
+            stage('free -h'){
+                steps {
+                    sh 'free -h'
+                }
+            }
+                
+            
+        }
+    
+}
