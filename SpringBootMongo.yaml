@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: spring-container
-        image: mithuntechnologies/springboot-mongo-application:1
+        image: shivakumar357/testrepo:latest
         ports:
         - containerPort: 8080
         resources:
