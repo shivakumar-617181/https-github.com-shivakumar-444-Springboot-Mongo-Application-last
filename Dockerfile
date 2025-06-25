@@ -3,7 +3,6 @@ FROM openjdk:8-alpine
 RUN apk update && apk add /bin/sh
 RUN date
 RUN date
-RUN free -h
 
 RUN mkdir -p /opt/app
 ENV PROJECT_HOME /opt/app
