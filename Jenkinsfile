@@ -61,7 +61,7 @@ pipeline
 		{
 			steps()
 			{
-				sh 'kubectl delete deployment springbootmongo-deployment -n production || true'
+				sh 'kubectl delete deployment springbootmongo-deployment. -n production || true'
 				sh 'kubectl apply -f SpringBootMongo.yaml'
 			}
 		}
